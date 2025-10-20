@@ -1,0 +1,219 @@
+\doxysection{Notiva\+IBMMQConnect.\+Program Class Reference}
+\hypertarget{class_notiva_i_b_m_m_q_connect_1_1_program}{}\label{class_notiva_i_b_m_m_q_connect_1_1_program}\index{NotivaIBMMQConnect.Program@{NotivaIBMMQConnect.Program}}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_notiva_i_b_m_m_q_connect_1_1_program_1_1_m_q_settings}{MQSettings}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{class_notiva_i_b_m_m_q_connect_1_1_program_a0f7eb7e4211d88417b45f9b1ce1240ec}{Main}} (string\mbox{[}$\,$\mbox{]} args)
+\item 
+static \mbox{\hyperlink{class_notiva_i_b_m_m_q_connect_1_1_program_1_1_m_q_settings}{MQSettings}} \mbox{\hyperlink{class_notiva_i_b_m_m_q_connect_1_1_program_a0e67b65dbdad069c6d8fb749fd893a0f}{Load\+Settings}} (string file\+Path)
+\item 
+static void \mbox{\hyperlink{class_notiva_i_b_m_m_q_connect_1_1_program_a21c1e23b0b59a978fc2d8bc4f8f7b358}{Put\+Message}} (string queue\+Name)
+\item 
+static void \mbox{\hyperlink{class_notiva_i_b_m_m_q_connect_1_1_program_aa08391f926113c1d9e9591de79f365aa}{Get\+Messages}} (string queue\+Name)
+\item 
+static void \mbox{\hyperlink{class_notiva_i_b_m_m_q_connect_1_1_program_a274afaf654f9a6bd3afdd77a4d14faff}{Log}} (string msg)
+\item 
+static void \mbox{\hyperlink{class_notiva_i_b_m_m_q_connect_1_1_program_aec5e8fac300fd0b31da41a67803f4b53}{Log\+Success}} (string msg)
+\item 
+static void \mbox{\hyperlink{class_notiva_i_b_m_m_q_connect_1_1_program_adcd3b49a0dad3287794569fbf9b247f9}{Log\+Warning}} (string msg)
+\item 
+static void \mbox{\hyperlink{class_notiva_i_b_m_m_q_connect_1_1_program_a48ab8db044e34ff33c25fa1f8decc065}{Log\+Error}} (string msg)
+\item 
+static bool \mbox{\hyperlink{class_notiva_i_b_m_m_q_connect_1_1_program_a9927518b10f4c2bba58304b5416a03bd}{Is\+File\+Readable}} (string path)
+\item 
+static void \mbox{\hyperlink{class_notiva_i_b_m_m_q_connect_1_1_program_a7bcb22edc1e3c53c548aceb467dfd813}{Send\+Text\+Files\+To\+Queue}} (string queue\+Name)
+\item 
+static void \mbox{\hyperlink{class_notiva_i_b_m_m_q_connect_1_1_program_a0775d7c864ec3c89ad859d0c3203ebc3}{Print\+Banner}} ()
+\item 
+static void \mbox{\hyperlink{class_notiva_i_b_m_m_q_connect_1_1_program_a8b4257b59198beb8fa84b11e8c60fdc9}{Show\+Splash\+Screen}} ()
+\begin{DoxyCompactList}\small\item\em Show\+Splash\+Screen to user. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static MQQueue\+Manager \mbox{\hyperlink{class_notiva_i_b_m_m_q_connect_1_1_program_a7f2d775eb5eec6880e4df1aaf7876784}{q\+Mgr}}
+\item 
+static \mbox{\hyperlink{class_notiva_i_b_m_m_q_connect_1_1_program_1_1_m_q_settings}{MQSettings}} \mbox{\hyperlink{class_notiva_i_b_m_m_q_connect_1_1_program_a3b6fbd237169e4d4067171cdc28acaa4}{config}}
+\item 
+const string \mbox{\hyperlink{class_notiva_i_b_m_m_q_connect_1_1_program_a27cef0a9bea3f79a8fbf21a36192594c}{version}} = "{}v1.\+0.\+1"{}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line \mbox{\hyperlink{_program_8cs_source_l00010}{10}} of file \mbox{\hyperlink{_program_8cs_source}{Program.\+cs}}.
+
+
+
+\label{doc-func-members}
+\Hypertarget{class_notiva_i_b_m_m_q_connect_1_1_program_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_notiva_i_b_m_m_q_connect_1_1_program_aa08391f926113c1d9e9591de79f365aa}\index{NotivaIBMMQConnect.Program@{NotivaIBMMQConnect.Program}!GetMessages@{GetMessages}}
+\index{GetMessages@{GetMessages}!NotivaIBMMQConnect.Program@{NotivaIBMMQConnect.Program}}
+\doxysubsubsection{\texorpdfstring{GetMessages()}{GetMessages()}}
+{\footnotesize\ttfamily \label{class_notiva_i_b_m_m_q_connect_1_1_program_aa08391f926113c1d9e9591de79f365aa} 
+void Notiva\+IBMMQConnect.\+Program.\+Get\+Messages (\begin{DoxyParamCaption}\item[{string}]{queue\+Name}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_program_8cs_source_l00215}{215}} of file \mbox{\hyperlink{_program_8cs_source}{Program.\+cs}}.
+
+\Hypertarget{class_notiva_i_b_m_m_q_connect_1_1_program_a9927518b10f4c2bba58304b5416a03bd}\index{NotivaIBMMQConnect.Program@{NotivaIBMMQConnect.Program}!IsFileReadable@{IsFileReadable}}
+\index{IsFileReadable@{IsFileReadable}!NotivaIBMMQConnect.Program@{NotivaIBMMQConnect.Program}}
+\doxysubsubsection{\texorpdfstring{IsFileReadable()}{IsFileReadable()}}
+{\footnotesize\ttfamily \label{class_notiva_i_b_m_m_q_connect_1_1_program_a9927518b10f4c2bba58304b5416a03bd} 
+bool Notiva\+IBMMQConnect.\+Program.\+Is\+File\+Readable (\begin{DoxyParamCaption}\item[{string}]{path}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_program_8cs_source_l00290}{290}} of file \mbox{\hyperlink{_program_8cs_source}{Program.\+cs}}.
+
+\Hypertarget{class_notiva_i_b_m_m_q_connect_1_1_program_a0e67b65dbdad069c6d8fb749fd893a0f}\index{NotivaIBMMQConnect.Program@{NotivaIBMMQConnect.Program}!LoadSettings@{LoadSettings}}
+\index{LoadSettings@{LoadSettings}!NotivaIBMMQConnect.Program@{NotivaIBMMQConnect.Program}}
+\doxysubsubsection{\texorpdfstring{LoadSettings()}{LoadSettings()}}
+{\footnotesize\ttfamily \label{class_notiva_i_b_m_m_q_connect_1_1_program_a0e67b65dbdad069c6d8fb749fd893a0f} 
+\mbox{\hyperlink{class_notiva_i_b_m_m_q_connect_1_1_program_1_1_m_q_settings}{MQSettings}} Notiva\+IBMMQConnect.\+Program.\+Load\+Settings (\begin{DoxyParamCaption}\item[{string}]{file\+Path}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_program_8cs_source_l00156}{156}} of file \mbox{\hyperlink{_program_8cs_source}{Program.\+cs}}.
+
+\Hypertarget{class_notiva_i_b_m_m_q_connect_1_1_program_a274afaf654f9a6bd3afdd77a4d14faff}\index{NotivaIBMMQConnect.Program@{NotivaIBMMQConnect.Program}!Log@{Log}}
+\index{Log@{Log}!NotivaIBMMQConnect.Program@{NotivaIBMMQConnect.Program}}
+\doxysubsubsection{\texorpdfstring{Log()}{Log()}}
+{\footnotesize\ttfamily \label{class_notiva_i_b_m_m_q_connect_1_1_program_a274afaf654f9a6bd3afdd77a4d14faff} 
+void Notiva\+IBMMQConnect.\+Program.\+Log (\begin{DoxyParamCaption}\item[{string}]{msg}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_program_8cs_source_l00262}{262}} of file \mbox{\hyperlink{_program_8cs_source}{Program.\+cs}}.
+
+\Hypertarget{class_notiva_i_b_m_m_q_connect_1_1_program_a48ab8db044e34ff33c25fa1f8decc065}\index{NotivaIBMMQConnect.Program@{NotivaIBMMQConnect.Program}!LogError@{LogError}}
+\index{LogError@{LogError}!NotivaIBMMQConnect.Program@{NotivaIBMMQConnect.Program}}
+\doxysubsubsection{\texorpdfstring{LogError()}{LogError()}}
+{\footnotesize\ttfamily \label{class_notiva_i_b_m_m_q_connect_1_1_program_a48ab8db044e34ff33c25fa1f8decc065} 
+void Notiva\+IBMMQConnect.\+Program.\+Log\+Error (\begin{DoxyParamCaption}\item[{string}]{msg}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_program_8cs_source_l00283}{283}} of file \mbox{\hyperlink{_program_8cs_source}{Program.\+cs}}.
+
+\Hypertarget{class_notiva_i_b_m_m_q_connect_1_1_program_aec5e8fac300fd0b31da41a67803f4b53}\index{NotivaIBMMQConnect.Program@{NotivaIBMMQConnect.Program}!LogSuccess@{LogSuccess}}
+\index{LogSuccess@{LogSuccess}!NotivaIBMMQConnect.Program@{NotivaIBMMQConnect.Program}}
+\doxysubsubsection{\texorpdfstring{LogSuccess()}{LogSuccess()}}
+{\footnotesize\ttfamily \label{class_notiva_i_b_m_m_q_connect_1_1_program_aec5e8fac300fd0b31da41a67803f4b53} 
+void Notiva\+IBMMQConnect.\+Program.\+Log\+Success (\begin{DoxyParamCaption}\item[{string}]{msg}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_program_8cs_source_l00269}{269}} of file \mbox{\hyperlink{_program_8cs_source}{Program.\+cs}}.
+
+\Hypertarget{class_notiva_i_b_m_m_q_connect_1_1_program_adcd3b49a0dad3287794569fbf9b247f9}\index{NotivaIBMMQConnect.Program@{NotivaIBMMQConnect.Program}!LogWarning@{LogWarning}}
+\index{LogWarning@{LogWarning}!NotivaIBMMQConnect.Program@{NotivaIBMMQConnect.Program}}
+\doxysubsubsection{\texorpdfstring{LogWarning()}{LogWarning()}}
+{\footnotesize\ttfamily \label{class_notiva_i_b_m_m_q_connect_1_1_program_adcd3b49a0dad3287794569fbf9b247f9} 
+void Notiva\+IBMMQConnect.\+Program.\+Log\+Warning (\begin{DoxyParamCaption}\item[{string}]{msg}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_program_8cs_source_l00276}{276}} of file \mbox{\hyperlink{_program_8cs_source}{Program.\+cs}}.
+
+\Hypertarget{class_notiva_i_b_m_m_q_connect_1_1_program_a0f7eb7e4211d88417b45f9b1ce1240ec}\index{NotivaIBMMQConnect.Program@{NotivaIBMMQConnect.Program}!Main@{Main}}
+\index{Main@{Main}!NotivaIBMMQConnect.Program@{NotivaIBMMQConnect.Program}}
+\doxysubsubsection{\texorpdfstring{Main()}{Main()}}
+{\footnotesize\ttfamily \label{class_notiva_i_b_m_m_q_connect_1_1_program_a0f7eb7e4211d88417b45f9b1ce1240ec} 
+void Notiva\+IBMMQConnect.\+Program.\+Main (\begin{DoxyParamCaption}\item[{string\mbox{[}$\,$\mbox{]}}]{args}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_program_8cs_source_l00031}{31}} of file \mbox{\hyperlink{_program_8cs_source}{Program.\+cs}}.
+
+\Hypertarget{class_notiva_i_b_m_m_q_connect_1_1_program_a0775d7c864ec3c89ad859d0c3203ebc3}\index{NotivaIBMMQConnect.Program@{NotivaIBMMQConnect.Program}!PrintBanner@{PrintBanner}}
+\index{PrintBanner@{PrintBanner}!NotivaIBMMQConnect.Program@{NotivaIBMMQConnect.Program}}
+\doxysubsubsection{\texorpdfstring{PrintBanner()}{PrintBanner()}}
+{\footnotesize\ttfamily \label{class_notiva_i_b_m_m_q_connect_1_1_program_a0775d7c864ec3c89ad859d0c3203ebc3} 
+void Notiva\+IBMMQConnect.\+Program.\+Print\+Banner (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_program_8cs_source_l00408}{408}} of file \mbox{\hyperlink{_program_8cs_source}{Program.\+cs}}.
+
+\Hypertarget{class_notiva_i_b_m_m_q_connect_1_1_program_a21c1e23b0b59a978fc2d8bc4f8f7b358}\index{NotivaIBMMQConnect.Program@{NotivaIBMMQConnect.Program}!PutMessage@{PutMessage}}
+\index{PutMessage@{PutMessage}!NotivaIBMMQConnect.Program@{NotivaIBMMQConnect.Program}}
+\doxysubsubsection{\texorpdfstring{PutMessage()}{PutMessage()}}
+{\footnotesize\ttfamily \label{class_notiva_i_b_m_m_q_connect_1_1_program_a21c1e23b0b59a978fc2d8bc4f8f7b358} 
+void Notiva\+IBMMQConnect.\+Program.\+Put\+Message (\begin{DoxyParamCaption}\item[{string}]{queue\+Name}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_program_8cs_source_l00176}{176}} of file \mbox{\hyperlink{_program_8cs_source}{Program.\+cs}}.
+
+\Hypertarget{class_notiva_i_b_m_m_q_connect_1_1_program_a7bcb22edc1e3c53c548aceb467dfd813}\index{NotivaIBMMQConnect.Program@{NotivaIBMMQConnect.Program}!SendTextFilesToQueue@{SendTextFilesToQueue}}
+\index{SendTextFilesToQueue@{SendTextFilesToQueue}!NotivaIBMMQConnect.Program@{NotivaIBMMQConnect.Program}}
+\doxysubsubsection{\texorpdfstring{SendTextFilesToQueue()}{SendTextFilesToQueue()}}
+{\footnotesize\ttfamily \label{class_notiva_i_b_m_m_q_connect_1_1_program_a7bcb22edc1e3c53c548aceb467dfd813} 
+void Notiva\+IBMMQConnect.\+Program.\+Send\+Text\+Files\+To\+Queue (\begin{DoxyParamCaption}\item[{string}]{queue\+Name}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_program_8cs_source_l00310}{310}} of file \mbox{\hyperlink{_program_8cs_source}{Program.\+cs}}.
+
+\Hypertarget{class_notiva_i_b_m_m_q_connect_1_1_program_a8b4257b59198beb8fa84b11e8c60fdc9}\index{NotivaIBMMQConnect.Program@{NotivaIBMMQConnect.Program}!ShowSplashScreen@{ShowSplashScreen}}
+\index{ShowSplashScreen@{ShowSplashScreen}!NotivaIBMMQConnect.Program@{NotivaIBMMQConnect.Program}}
+\doxysubsubsection{\texorpdfstring{ShowSplashScreen()}{ShowSplashScreen()}}
+{\footnotesize\ttfamily \label{class_notiva_i_b_m_m_q_connect_1_1_program_a8b4257b59198beb8fa84b11e8c60fdc9} 
+void Notiva\+IBMMQConnect.\+Program.\+Show\+Splash\+Screen (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Show\+Splash\+Screen to user. 
+
+
+
+Definition at line \mbox{\hyperlink{_program_8cs_source_l00419}{419}} of file \mbox{\hyperlink{_program_8cs_source}{Program.\+cs}}.
+
+
+
+\label{doc-variable-members}
+\Hypertarget{class_notiva_i_b_m_m_q_connect_1_1_program_doc-variable-members}
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_notiva_i_b_m_m_q_connect_1_1_program_a3b6fbd237169e4d4067171cdc28acaa4}\index{NotivaIBMMQConnect.Program@{NotivaIBMMQConnect.Program}!config@{config}}
+\index{config@{config}!NotivaIBMMQConnect.Program@{NotivaIBMMQConnect.Program}}
+\doxysubsubsection{\texorpdfstring{config}{config}}
+{\footnotesize\ttfamily \label{class_notiva_i_b_m_m_q_connect_1_1_program_a3b6fbd237169e4d4067171cdc28acaa4} 
+\mbox{\hyperlink{class_notiva_i_b_m_m_q_connect_1_1_program_1_1_m_q_settings}{MQSettings}} Notiva\+IBMMQConnect.\+Program.\+config\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_program_8cs_source_l00013}{13}} of file \mbox{\hyperlink{_program_8cs_source}{Program.\+cs}}.
+
+\Hypertarget{class_notiva_i_b_m_m_q_connect_1_1_program_a7f2d775eb5eec6880e4df1aaf7876784}\index{NotivaIBMMQConnect.Program@{NotivaIBMMQConnect.Program}!qMgr@{qMgr}}
+\index{qMgr@{qMgr}!NotivaIBMMQConnect.Program@{NotivaIBMMQConnect.Program}}
+\doxysubsubsection{\texorpdfstring{qMgr}{qMgr}}
+{\footnotesize\ttfamily \label{class_notiva_i_b_m_m_q_connect_1_1_program_a7f2d775eb5eec6880e4df1aaf7876784} 
+MQQueue\+Manager Notiva\+IBMMQConnect.\+Program.\+q\+Mgr\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_program_8cs_source_l00012}{12}} of file \mbox{\hyperlink{_program_8cs_source}{Program.\+cs}}.
+
+\Hypertarget{class_notiva_i_b_m_m_q_connect_1_1_program_a27cef0a9bea3f79a8fbf21a36192594c}\index{NotivaIBMMQConnect.Program@{NotivaIBMMQConnect.Program}!version@{version}}
+\index{version@{version}!NotivaIBMMQConnect.Program@{NotivaIBMMQConnect.Program}}
+\doxysubsubsection{\texorpdfstring{version}{version}}
+{\footnotesize\ttfamily \label{class_notiva_i_b_m_m_q_connect_1_1_program_a27cef0a9bea3f79a8fbf21a36192594c} 
+const string Notiva\+IBMMQConnect.\+Program.\+version = "{}v1.\+0.\+1"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_program_8cs_source_l00014}{14}} of file \mbox{\hyperlink{_program_8cs_source}{Program.\+cs}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_program_8cs}{Program.\+cs}}\end{DoxyCompactItemize}

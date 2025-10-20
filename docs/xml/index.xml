@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.14.0" xml:lang="en-US">
+  <compound refid="class_notiva_i_b_m_m_q_connect_1_1_program_1_1_m_q_settings" kind="class"><name>NotivaIBMMQConnect::Program::MQSettings</name>
+    <member refid="class_notiva_i_b_m_m_q_connect_1_1_program_1_1_m_q_settings_1a4362ef562af8251c72d9a6a149122c19" kind="property"><name>QueueManager</name></member>
+    <member refid="class_notiva_i_b_m_m_q_connect_1_1_program_1_1_m_q_settings_1a5fab42d3b0a70b8aa0ec0acc8b95a3de" kind="property"><name>QueueName</name></member>
+    <member refid="class_notiva_i_b_m_m_q_connect_1_1_program_1_1_m_q_settings_1a6595ce05111c98a80b6586da5ebb7356" kind="property"><name>Host</name></member>
+    <member refid="class_notiva_i_b_m_m_q_connect_1_1_program_1_1_m_q_settings_1aff9d85e19184fc4e8700d976348f5d9e" kind="property"><name>Port</name></member>
+    <member refid="class_notiva_i_b_m_m_q_connect_1_1_program_1_1_m_q_settings_1a3f36827994a6b16de0a5ab5773b9edd6" kind="property"><name>Channel</name></member>
+    <member refid="class_notiva_i_b_m_m_q_connect_1_1_program_1_1_m_q_settings_1a58c72ce9f4cff4f60a6c64bb422615e8" kind="property"><name>UserId</name></member>
+    <member refid="class_notiva_i_b_m_m_q_connect_1_1_program_1_1_m_q_settings_1a0e4a155d6e0d330adc39d41f1570b234" kind="property"><name>Password</name></member>
+    <member refid="class_notiva_i_b_m_m_q_connect_1_1_program_1_1_m_q_settings_1aa7dc7f56c3cdfed970a6785fd50321eb" kind="property"><name>UseSSL</name></member>
+    <member refid="class_notiva_i_b_m_m_q_connect_1_1_program_1_1_m_q_settings_1a83fd2b411e1e4a3fc7f69d8b37ae6617" kind="property"><name>SSLKeyRepository</name></member>
+    <member refid="class_notiva_i_b_m_m_q_connect_1_1_program_1_1_m_q_settings_1a9111ee583b6a784b0be2b0a251ca9659" kind="property"><name>SSLCipherSpec</name></member>
+    <member refid="class_notiva_i_b_m_m_q_connect_1_1_program_1_1_m_q_settings_1a9efa666f3aa212b929eade9b7227f38d" kind="property"><name>SSLPeerName</name></member>
+    <member refid="class_notiva_i_b_m_m_q_connect_1_1_program_1_1_m_q_settings_1a9e27e21e41a66c6be17209db073f904b" kind="property"><name>SSLCertRevocationCheck</name></member>
+  </compound>
+  <compound refid="class_notiva_i_b_m_m_q_connect_1_1_program" kind="class"><name>NotivaIBMMQConnect::Program</name>
+    <member refid="class_notiva_i_b_m_m_q_connect_1_1_program_1a7f2d775eb5eec6880e4df1aaf7876784" kind="variable"><name>qMgr</name></member>
+    <member refid="class_notiva_i_b_m_m_q_connect_1_1_program_1a3b6fbd237169e4d4067171cdc28acaa4" kind="variable"><name>config</name></member>
+    <member refid="class_notiva_i_b_m_m_q_connect_1_1_program_1a27cef0a9bea3f79a8fbf21a36192594c" kind="variable"><name>version</name></member>
+    <member refid="class_notiva_i_b_m_m_q_connect_1_1_program_1a0f7eb7e4211d88417b45f9b1ce1240ec" kind="function"><name>Main</name></member>
+    <member refid="class_notiva_i_b_m_m_q_connect_1_1_program_1a0e67b65dbdad069c6d8fb749fd893a0f" kind="function"><name>LoadSettings</name></member>
+    <member refid="class_notiva_i_b_m_m_q_connect_1_1_program_1a21c1e23b0b59a978fc2d8bc4f8f7b358" kind="function"><name>PutMessage</name></member>
+    <member refid="class_notiva_i_b_m_m_q_connect_1_1_program_1aa08391f926113c1d9e9591de79f365aa" kind="function"><name>GetMessages</name></member>
+    <member refid="class_notiva_i_b_m_m_q_connect_1_1_program_1a274afaf654f9a6bd3afdd77a4d14faff" kind="function"><name>Log</name></member>
+    <member refid="class_notiva_i_b_m_m_q_connect_1_1_program_1aec5e8fac300fd0b31da41a67803f4b53" kind="function"><name>LogSuccess</name></member>
+    <member refid="class_notiva_i_b_m_m_q_connect_1_1_program_1adcd3b49a0dad3287794569fbf9b247f9" kind="function"><name>LogWarning</name></member>
+    <member refid="class_notiva_i_b_m_m_q_connect_1_1_program_1a48ab8db044e34ff33c25fa1f8decc065" kind="function"><name>LogError</name></member>
+    <member refid="class_notiva_i_b_m_m_q_connect_1_1_program_1a9927518b10f4c2bba58304b5416a03bd" kind="function"><name>IsFileReadable</name></member>
+    <member refid="class_notiva_i_b_m_m_q_connect_1_1_program_1a7bcb22edc1e3c53c548aceb467dfd813" kind="function"><name>SendTextFilesToQueue</name></member>
+    <member refid="class_notiva_i_b_m_m_q_connect_1_1_program_1a0775d7c864ec3c89ad859d0c3203ebc3" kind="function"><name>PrintBanner</name></member>
+    <member refid="class_notiva_i_b_m_m_q_connect_1_1_program_1a8b4257b59198beb8fa84b11e8c60fdc9" kind="function"><name>ShowSplashScreen</name></member>
+  </compound>
+  <compound refid="namespace_i_b_m_1_1_w_m_q" kind="namespace"><name>IBM::WMQ</name>
+  </compound>
+  <compound refid="namespace_newtonsoft_1_1_json" kind="namespace"><name>Newtonsoft::Json</name>
+  </compound>
+  <compound refid="namespace_notiva_i_b_m_m_q_connect" kind="namespace"><name>NotivaIBMMQConnect</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections" kind="namespace"><name>System::Collections</name>
+  </compound>
+  <compound refid="namespace_system_1_1_i_o" kind="namespace"><name>System::IO</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_compiler_services" kind="namespace"><name>System::Runtime::CompilerServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_interop_services" kind="namespace"><name>System::Runtime::InteropServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading" kind="namespace"><name>System::Threading</name>
+  </compound>
+  <compound refid="_debug_2_8_n_e_t_framework_00_version_0av4_87_82_8_assembly_attributes_8cs" kind="file"><name>.NETFramework,Version=v4.7.2.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_release_2_8_n_e_t_framework_00_version_0av4_87_82_8_assembly_attributes_8cs" kind="file"><name>.NETFramework,Version=v4.7.2.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="x64_2_debug_2_8_n_e_t_framework_00_version_0av4_87_82_8_assembly_attributes_8cs" kind="file"><name>.NETFramework,Version=v4.7.2.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="x64_2_release_2_8_n_e_t_framework_00_version_0av4_87_82_8_assembly_attributes_8cs" kind="file"><name>.NETFramework,Version=v4.7.2.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_l_i_c_e_n_s_e_8md" kind="file"><name>LICENSE.md</name>
+  </compound>
+  <compound refid="_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="md_packages_2_newtonsoft_8_json_813_80_83_2_l_i_c_e_n_s_e" kind="page"><name>md_packages_2_newtonsoft_8_json_813_80_83_2_l_i_c_e_n_s_e</name>
+  </compound>
+  <compound refid="dir_a71c3b2ad23b9ff58220dd012d201987" kind="dir"><name>obj/Debug</name>
+  </compound>
+  <compound refid="dir_d6170c5dc5383b92e748a775ecfcdec9" kind="dir"><name>obj/x64/Debug</name>
+  </compound>
+  <compound refid="dir_00810d656b575d60a459a59442ee4617" kind="dir"><name>packages/Newtonsoft.Json.13.0.3</name>
+  </compound>
+  <compound refid="dir_43724e81dd40e09f32417973865cdd64" kind="dir"><name>obj</name>
+  </compound>
+  <compound refid="dir_93501a11e921083efbd154e0cdff5f10" kind="dir"><name>packages</name>
+  </compound>
+  <compound refid="dir_d051c76eebdc544d9c3d734575641c72" kind="dir"><name>Properties</name>
+  </compound>
+  <compound refid="dir_9fe5cc214b8578ee5b8e153089aca810" kind="dir"><name>obj/Release</name>
+  </compound>
+  <compound refid="dir_4365754964c83667c76fd32d76d1d907" kind="dir"><name>obj/x64/Release</name>
+  </compound>
+  <compound refid="dir_6819ddf8c9cf9eac49810803444c82dd" kind="dir"><name>obj/x64</name>
+  </compound>
+</doxygenindex>

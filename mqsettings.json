@@ -1,0 +1,15 @@
+{
+  "QueueManager": "QM_TEST", // Name of the MQ Queue Manager to connect to
+  "QueueName": "Q_TEST", // Name of the queue you want to put/get messages from
+  "Host": "192.168.0.204", // IP address or hostname of the MQ server
+  "Port": 1414, // Port number on which the MQ listener is running
+  "Channel": "SSL.TLS.SVRCONN", // MQ channel for client connections
+  "UserId": "admin", // User ID for authentication
+  "Password": "password", // Password for the above User ID
+  "UseSSL": true, // Set to true to enable SSL/TLS connection
+  "SSLKeyRepository": "C:\\Program Files\\IBM\\MQ\\ssl\\key", // Path to SSL key repository (kdb/sth files)
+  "SSLCipherSpec": "TLS_AES_128_GCM_SHA256", // Cipher spec used for SSL/TLS communication
+  "SSLPeerName": "", // Optional: expected distinguished name (DN) of the server certificate
+  "SSLCertRevocationCheck": false, // Enable or disable certificate revocation checking
+  "MQTransportProperty": "TRANSPORT_MQSERIES_CLIENT" // Transport type: TRANSPORT_MQSERIES_CLIENT = uses MQ Client, TRANSPORT_MQSERIES_MANAGED = .NET managed transport
+}

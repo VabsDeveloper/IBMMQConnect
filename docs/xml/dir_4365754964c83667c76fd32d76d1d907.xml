@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="dir_4365754964c83667c76fd32d76d1d907" kind="dir">
+    <compoundname>obj/x64/Release</compoundname>
+    <innerfile refid="x64_2_release_2_8_n_e_t_framework_00_version_0av4_87_82_8_assembly_attributes_8cs">.NETFramework,Version=v4.7.2.AssemblyAttributes.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="obj/x64/Release/"/>
+  </compounddef>
+</doxygen>
